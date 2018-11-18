@@ -1,0 +1,13 @@
+{
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "tslint.autoFixOnSave": true,
+    "files.exclude":{
+        "**/.cache": true,
+        "**/.gradle": true,
+        "**/.vscode": true,
+        "**/dist": true,
+        "**/dist-demo": true,
+        "**/gradle": true,
+        "**/node_modules": true
+    }
+}
