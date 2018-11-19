@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "declaration": true,
     "jsx": "react",
     "lib": [
       "dom",
@@ -9,12 +8,8 @@
     "module": "es2015",
     "moduleResolution": "node",
     "noUnusedLocals": true,
-    "outDir": "dist",
     "sourceMap": true,
     "strict": true,
-    "target": "es5",
-  },
-  "include": [
-    "src/**/*"
-  ]
+    "target": "es5"
+  }
 }

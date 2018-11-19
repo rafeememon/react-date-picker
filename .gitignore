@@ -1,5 +1,4 @@
 /.gradle/
-/node_modules/
-/dist/
-/dist-demo/
-/.cache/
+.cache/
+node_modules/
+dist/

@@ -1,0 +1,38 @@
+{
+  "name": "@rafeememon/react-date-picker",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A simple date picker for React",
+  "author": "Rafee Memon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafeememon/react-date-picker.git"
+  },
+  "keywords": [
+    "react",
+    "date",
+    "picker",
+    "datepicker"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "lint": "tslint src/**/*.ts src/**/*.tsx"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.6",
+    "@types/react-dom": "^16.0.9",
+    "tslint": "^5.11.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.1.6"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "dependencies": {
+    "date-fns": "^2.0.0-alpha.25"
+  }
+}
